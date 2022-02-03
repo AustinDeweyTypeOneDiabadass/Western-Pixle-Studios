@@ -1,0 +1,66 @@
+html {
+    background-color: black;
+}
+
+.h-1 {
+    color: aliceblue;
+    font-family: "Bell MT";
+}
+
+.h-1 {
+    position: relative;
+    font-size: 30px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+.h-1:before, h1:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: burlywood;
+}
+.h-1:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+.wondering-cosmos {
+    hight: 300px;
+    max-width: 99%;
+    align-content: stretch;
+}
+
+.about-western-section {
+    text-align: center;
+}
+
+.first-about {
+
+}
+
+.second-about {
+
+}
+
+.third-about {
+
+}
+
+.open-cosmos {
+    hight: 300px;
+    max-width: 99%;
+    align-content: stretch;
+    display: block;
+}
+
+.first-game {
+    hight: 250px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
