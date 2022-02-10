@@ -1,0 +1,35 @@
+.html-back {
+    background-color: black;
+}
+
+.h-1 {
+    background-color: black;
+    color: aliceblue;
+    font-family: "Bell MT";
+}
+
+.h-1 {
+    position: relative;
+    font-size: 30px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+.h-1:before, h1:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: transparent;
+}
+.h-1:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+/*THIS IS THE END OF ABOUT ME CSS SECTION*/
+
+
+

@@ -1,3 +1,9 @@
+
+/*This is Section 1 of my CSS code script, there will be multiple sections within my page.
+I used section 1 as a way of getting my base page set up with refrences from W3 Schools to help me
+create a contact form skelly as well as centering my header
+*/
+
 html {
     background-color: black;
 }
@@ -21,7 +27,7 @@ html {
     width: 50%;
     height: 1px;
     content: '\a0';
-    background-color: burlywood;
+    background-color: transparent;
 }
 .h-1:before {
     margin-left: -50%;
@@ -29,26 +35,14 @@ html {
 }
 
 .wondering-cosmos {
-    hight: 300px;
-    max-width: 99%;
-    align-content: stretch;
+    max-hight: 50%;
+    max-width: 50%;
 }
 
 .about-western-section {
     text-align: center;
 }
 
-.first-about {
-
-}
-
-.second-about {
-
-}
-
-.third-about {
-
-}
 
 .open-cosmos {
     hight: 300px;
@@ -63,6 +57,11 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.first-game-div {
+    padding: 50px;
+    margin-top: 50px;
 }
 
 .second-game-div {
@@ -160,3 +159,76 @@ button {
     margin-left: .5em;
 }
 
+.image-fade-in {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+/*End of section 1 for "base page" set up */
+
+/*
+This is section 2 of my CSS style sheet, this section will be made with the idea of grouping and making
+columns or rows for the individual sections of my PWP here I will add rows to the first section for
+the about me and will update with a comment progress when finished with an explanation of my thoughts and
+what sources i used in my causal referencing phases
+*/
+
+.about-container{
+    margin-top: 150px;
+
+}
+
+.first-about {
+    color: black;
+    border: 3px solid black;
+    float: left;
+    background: whitesmoke;
+    width: 25%;
+    hight: 250px;
+}
+
+.second-about {
+    color:black;
+    border: 3px solid black;
+    float: left;
+    background-color: whitesmoke;
+    width: 50%;
+    hight: 250px;
+}
+
+.third-about {
+    color: black;
+    border: 3px solid black;
+    float: right;
+    background: whitesmoke;
+    width: 25%;
+    hight: 250px;
+}
