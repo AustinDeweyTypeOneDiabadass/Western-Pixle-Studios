@@ -55,12 +55,8 @@ const handlePostRequest = (request: Request, response: Response) => {
         )
     }
 
-    // const name = request.body.name
-    // const email = request.body.email
-    // const subject = request.body.subject
-    // const message = request.body.message
-    // The above assignments can be done using the single line below.
-    const {name, email, subject, message} = request.body
+
+    const {name, email, subject, message,} = request.body
 
     const mailgunData = {
         to: process.env.MAIL_RECIPIENT,
