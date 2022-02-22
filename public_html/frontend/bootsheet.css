@@ -1,11 +1,37 @@
 
 
 .Header {
-    background-color: black ;
+    background-color: lightsteelblue ;
     text-align: right;
     color: aliceblue;
     padding: 35px;
 }
+
+.About-Head {
+    text-align: left;
+    color: aliceblue ;
+    font-family: "Bell MT";
+    padding: 100px;
+    padding-top: 50px;
+}
+
+.game-Head {
+    text-align: left;
+    color: aliceblue ;
+    font-family: "Bell MT";
+padding: 50px;
+    margin: 100px;
+}
+
+.form-Head {
+    text-align: left;
+    color: aliceblue ;
+    font-family: "Bell MT";
+    padding: 200px;
+
+}
+
+
 
 
 
