@@ -1,9 +1,9 @@
 
 
 .Header {
-    background-color: lightsteelblue ;
-    text-align: right;
-    color: aliceblue;
+    background-color: whitesmoke ;
+    text-align: center;
+    color: black;
     padding: 35px;
 }
 
@@ -30,6 +30,13 @@ padding: 50px;
     padding: 50px;
     margin: auto;
 
+}
+
+.Border-Box-Left {
+    border: medium white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: x-large;
 }
 
 
