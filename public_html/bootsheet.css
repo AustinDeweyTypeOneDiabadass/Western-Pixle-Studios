@@ -32,6 +32,13 @@ padding: 50px;
 
 }
 
+.Border-Box {
+    border: medium black;
+    text-align: center;
+    color: black;
+    background: cornsilk;
+}
+
 
 
 
