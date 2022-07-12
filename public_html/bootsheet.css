@@ -16,11 +16,11 @@
 }
 
 .game-Head {
-    text-align: left;
+    text-align: center;
     color: aliceblue ;
     font-family: "Bell MT";
-padding: 50px;
-    margin: 100px;
+    font-size: x-large;
+
 }
 
 .form-Head {
@@ -32,11 +32,13 @@ padding: 50px;
 
 }
 
-.Border-Box-Left {
+.Proticol-Evolution {
+
     border: medium white;
     border-radius: 10px;
-    text-align: center;
-    font-size: x-large;
+    text-align: left;
+    font-size: large;
+
 }
 
 
