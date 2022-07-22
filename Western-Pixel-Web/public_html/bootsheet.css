@@ -1,10 +1,11 @@
 
 
 .Header {
-    background-color: whitesmoke ;
-    text-align: center;
+    background-color: aliceblue ;
+    text-align: left;
     color: black;
-    padding: 35px;
+    padding: 50px;
+    border: solid lightskyblue 5px;
 }
 
 .About-Head {
@@ -44,7 +45,7 @@
 .slideshow-container {
     position: relative;
     background: #f1f1f1f1;
-    border: solid mediumpurple 15px;
+    border: solid lightblue 5px;
     margin: 20px;
     padding: 30px;
 }
@@ -114,6 +115,12 @@ q {font-style: italic;}
 
 
 .author {color: cornflowerblue;}
+
+.NewsHead {
+    text-align: center;
+    font-family: Impact;
+    padding: 125px;
+}
 
 
 
