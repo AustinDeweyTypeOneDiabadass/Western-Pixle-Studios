@@ -1,0 +1,23 @@
+        <h1>Protocol Evolution</h1>
+        <p>In this venture we look to the stars for humanity's last hope,<br>
+        come with us as we tackle an adventure unlike any other <br>
+            where we are in fact humanity's last hope.
+        </p>
+
+        <h1>A Little About Western Pixel Studios</h1>
+        <br>
+        <p>Here at Western Pixel Studios we thrive to do the unthinkable.
+            <br>
+            We strive to do something unlike any studio
+            <br>
+            We are a diverse open minded company whom beives all humans carry a creative soul
+        </p>
+
+        <h1>Video Game Development</h1>
+        <br>
+        <p>Here at Western Pixel Studios Our team uses Unreal Engine 5.
+            <br>
+            We also use a number of tools such as Blender and Adobe illustrator.
+            <br>
+            Detail is vital within our devcelopment team as we strive to push gaming to its next step in evolution. 
+        </p>
